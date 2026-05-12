@@ -6,4 +6,13 @@ class Programmer extends Karyawan{
         this.gajiPokok = gajiPokok;
     }
 
+    public double getGajiPokok (){
+        return gajiPokok;
+    }
+
+    @Override
+    double hitungGaji (){
+        return gajiPokok;
+    }
+
 } 
